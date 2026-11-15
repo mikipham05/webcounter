@@ -5,7 +5,7 @@ Suite Teardown  Close Browser
 
 *** Test Cases ***
 Reset Counter
-    Go To  ${HOME_URL}
+    Go To  ${SERVER}
     Click  button >> text=Nollaa
     Click  button >> text=Paina
     Get Text  body  *=  nappia painettu 1 kertaa
